@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7fafc;
+  font-family: 'Nunito', sans-serif;
+  max-width: 75%;
+  margin: auto auto;
+}
