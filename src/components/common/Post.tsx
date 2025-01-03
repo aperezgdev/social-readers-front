@@ -48,6 +48,9 @@ export const Post = ({userName, content, publishedAt} : PostProps) => {
       <h3 className="font-semibold px-4">{userName}</h3>
       <span className="text-gray-300 font-light text-right text-sm">{timeSince(publishedAt)}</span>
       <p className="col-start-2 col-span-3 -mt-6 px-4">{content}</p>
+       <div className="flex items-end justify-end col-start-3 px-4 pt-4">
+        <LikeIcon active count={10}/>
+      </div>
     </article>
   )
 }
